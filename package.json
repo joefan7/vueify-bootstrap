@@ -1,0 +1,16 @@
+{
+  "name": "vueify-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap provides many components which are quite useful. Unfortunately, using some of these components requires a lot of repetitive boilerplate code.  For example, if you use the bootstrap modal 10 times throughout your app, each of those modals will probably share 95% of their code with each other, and only a few details will be different.  For this exercise, you need to choose a bootstrap component from https://getbootstrap.com/docs/3.3/components or https://getbootstrap.com/docs/3.3/javascript, and create a vue component which wraps the bootstrap component.  The vue component you make should be flexible, so you can use the component properties to specify how each of your 10 modals is different, but all the redundant code that is the same across all of your modals should be hidden in the definition of the component, so you don't have to look at that redundant code in your HTML.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "vue": "^2.4.2"
+  }
+}
